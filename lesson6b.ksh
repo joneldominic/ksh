@@ -54,7 +54,7 @@ elif (( NumberGrade > 79 )); then
 	Grade='B'
 elif (( NumberGrade > 69 )); then
 	Grade='C'
-elif (( NumberGrade > 59 )); then
+elif (( NumberGrade > 59 )); then			# May Add else statement
 	Grade='D'
 fi
 
